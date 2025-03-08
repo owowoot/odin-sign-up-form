@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(../fonts/Norse-Bold.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo-container {
+  background-image: url("./images/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35vw;
+  color: white;
+  font-family: Norse-Bold, sans-serif;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  background-color: #fafafa;
+}
+
+.form-content {
+  height: 33vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.sign-up {
+  height: 33vh;
+  background-color: white;
+}
+
+.sign-up > h3 {
+  margin-left: 50px;
+}
+
+.sign-in {
+  height: 33vh;
+}
+
+.form-main-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.sign-up input {
+  width: 225px;
+  border: 1px solid #e5e7eb;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.sign-up input:focus {
+  border: 1px solid blue;
+}
+
+.sign-up input:invalid {
+  border: 1px solid red;
+}
