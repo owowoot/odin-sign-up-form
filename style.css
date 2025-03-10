@@ -79,3 +79,11 @@ body {
 .sign-up input:invalid {
   border: 1px solid red;
 }
+
+.create-account-btn {
+  color: white;
+  background-color: #596d48;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
